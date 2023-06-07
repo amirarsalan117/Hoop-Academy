@@ -273,23 +273,23 @@ body {
 }
 .first {
   grid-area: first;
-  background-color: blue;
+  background-color: #ffe6cc;
 }
 .second {
   grid-area: second;
-  background-color: red;
+  background-color: #ff8000;
 }
 .third {
   grid-area: third;
-  background-color: green;
+  background-color: #ffc080;
 }
 .fourth {
   grid-area: fourth;
-  background-color: #e67300;
+  background-color: #ffe6cc;
 }
 .fifth {
   grid-area: fifth;
-  background-color: #551a8b;
+  background-color: #ff8000;
 }
 .info {
   display: flex;
@@ -299,7 +299,7 @@ body {
 }
 
 .info-content {
-  color: white;
+  color: #000;
 }
 
 .info img {
@@ -314,15 +314,15 @@ body {
   font-size: 1rem;
 }
 .testemonial-content {
-  color: white;
+  color: #000;
 }
 
-.summry-text{
+.summry-text {
   font-size: 2.8rem;
   line-height: 1.4;
   margin-bottom: 1.2rem;
 }
-.testemonial-text{
+.testemonial-text {
   font-size: 1.6rem;
   line-height: 1.6;
 }
