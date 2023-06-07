@@ -61,11 +61,10 @@ body {
   display: inline-block;
   text-decoration: none;
   font-size: 2.4rem;
-  margin-top: 3.6rem;
   padding: 1.8rem;
   border-radius: 1.1rem;
   margin-right: 2rem;
-  transition: all 0.3s;
+  transition: all 0.03s;
 }
 .btn--full:link,
 .btn--full:visited {
@@ -85,14 +84,44 @@ body {
 }
 .btn--out:hover,
 .btn--out:active {
-
   outline: 3px solid #ffe6cc;
   background-color: #ffd9b3;
 }
 /*****************************/
 /* header Section  */
 /*****************************/
+.header {
+  padding: 2.2rem 3.6rem;
+  background-color: #ffd9b3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.logo {
+  float: left;
+  padding-right: 3.6rem;
+  font-size: 2.4rem;
+  color: #551a8b;
+}
+.logo a:link,
+.logo a:visited {
+  text-decoration: none;
+  font-weight: 600;
+}
+.navbar {
+  margin-top: 0.5rem;
+  display: flex;
+
+  gap: 2rem;
+}
+.nav-item {
+  font-size: 1.8rem;
+  /* color: #551a8b; */
+  color: #000;
+  font-weight: 500;
+  cursor: pointer;
+}
 /*****************************/
 /* Hero Section  */
 /*****************************/
@@ -123,4 +152,5 @@ body {
   font-size: 2.4rem;
   line-height: 1.6;
   color: #000;
+  margin-bottom: 3.6rem;
 }
