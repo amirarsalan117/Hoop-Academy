@@ -101,6 +101,22 @@ body {
 .grid--3-cols {
   grid-template-columns: repeat(3, 1fr);
 }
+.tag {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 0.5rem;
+  border-radius: 1.1rem;
+  color: #000;
+}
+.tag--elit {
+  background-color: green;
+}
+.tag--pro {
+  background-color: #e67300;
+}
+.tag--advanced {
+  background-color: dodgerblue;
+}
 /*****************************/
 /* header Section  */
 /*****************************/
@@ -334,11 +350,16 @@ body {
   padding: 9.6rem 0 9.6rem 0;
 }
 
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
 .card {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: #ffc080;
+  background-color: #ffe6cc;
   padding: 2rem 4rem;
   border-radius: 1.1rem;
 }
@@ -353,6 +374,28 @@ body {
   font-weight: 700;
   color: #000;
 }
-.time{
+.time {
   font-size: 1.6rem;
+  color: #222;
+}
+.describtions {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.describtion-item {
+  font-size: 1.8rem;
+  color: #000;
+}
+
+.card--populare {
+  background-color: #e67300;
+}
+.btn--price {
+  background-color: #733a00;
+  color: white;
+}
+
+.btn--price:hover{
+  background-color: #452200;
 }
