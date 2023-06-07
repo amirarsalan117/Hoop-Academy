@@ -9,7 +9,7 @@
     -line-height:
         defualt:1
 ---02 color:
-    -primary color: #f88158 , #d45f33
+    -primary color: #f88158 , #d45f33 , #ff8000
     -tints color:
     -shades color:
     Accents:
@@ -51,10 +51,14 @@ body {
   margin: 0 auto;
 }
 .heading-primary {
-  font-size: 5.2rem;
+  font-size: 4.8rem;
   font-weight: 700;
   color: #000;
   line-height: 1.5;
+}
+.section-header {
+  text-align: center;
+  margin-bottom: 5.2rem;
 }
 .btn:link,
 .btn:visited {
@@ -176,10 +180,7 @@ body {
 .section-features {
   padding: 9.6rem 0 9.6rem 0;
 }
-.features-header {
-  text-align: center;
-  margin-bottom: 5.2rem;
-}
+
 .features-link:link,
 .features-link:visited {
   font-size: 1.6rem;
@@ -206,5 +207,46 @@ body {
 .feature-icon {
   /* margin: 0 auto; */
   font-size: 5.2rem;
+  color: #ff8000;
+}
+
+/*****************************/
+/* how Section  */
+/*****************************/
+
+.section-how {
+  padding: 9.6rem 0 9.6rem 0;
+  background-color: #ffe6cc;
+}
+
+.how-image img {
+  width: 100%;
+  border-radius: 1.1rem;
+}
+.how-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 3.6rem;
+}
+
+.number {
+  font-size: 5.2rem;
+  font-weight: 600;
+  color: #ffc080;
+  margin-bottom: 1.2rem;
+}
+.step-title {
+  font-size: 3.2rem;
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 1.2rem;
+}
+.step-describtion {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.hoop-academy {
   color: #ff8000;
 }
