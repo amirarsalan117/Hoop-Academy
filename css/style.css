@@ -112,8 +112,7 @@ body {
 .navbar {
   margin-top: 0.5rem;
   display: flex;
-
-  gap: 2rem;
+  gap: 3.2rem;
 }
 .nav-item {
   font-size: 1.8rem;
@@ -134,17 +133,17 @@ body {
 .hero {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 3.6rem;
+  gap: 9.6rem;
 }
 
 .hero-img img {
   width: 100%;
   height: 100%;
-  border-radius: 40%;
+  border-radius: 1.1rem;
 }
 .hero-content {
   width: 125%;
-  padding-top: 10rem;
+  align-self: center;
 }
 
 .hero-describtion {
