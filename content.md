@@ -181,13 +181,8 @@ Fax: +1 (987) 654-3210
 
 ### Additional links [links not available yet]
 
-Create account
-Sign in
-iOS app
-Android app
-About Pedal Pro
-For Business
-Careers
+
+
 Help center
 Privacy & terms
 
