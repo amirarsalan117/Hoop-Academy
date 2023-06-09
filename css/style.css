@@ -45,6 +45,9 @@ body {
 /*****************************/
 /* General  */
 /*****************************/
+.border--bottom-form {
+  border-bottom: 2px solid rgba(111, 107, 107, 0.7);
+}
 .container {
   max-width: 120rem;
   padding: 0 3.2rem;
@@ -59,6 +62,10 @@ body {
 .section-header {
   text-align: center;
   margin-bottom: 5.2rem;
+}
+.subheading {
+  font-size: 1.6rem;
+  color: #e67300;
 }
 .btn:link,
 .btn:visited {
@@ -405,4 +412,122 @@ body {
 .card--hover:hover {
   transform: translate(0, -2rem);
   box-shadow: 0 0 6rem rgba(0, 0, 0, 0.6);
+}
+
+/*****************************/
+/* call to action Section  */
+/*****************************/
+
+.section-cta *:focus {
+  outline: none;
+  box-shadow: 0 0 2rem #733a0059;
+}
+.section-cta {
+  padding: 9.6rem 0 9.6rem 0;
+  background-color: #ffe6cc;
+}
+.cta-heading {
+  font-size: 3.2rem;
+  margin-bottom: 6.4rem;
+  text-align: center;
+}
+.cta-address {
+  display: flex;
+  justify-content: space-around;
+}
+.address-icon {
+  font-size: 2.2rem;
+  color: #ff8000;
+  background-color: #452200;
+  padding: 1.8rem;
+  border-radius: 100%;
+}
+.address {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  align-items: center;
+}
+
+.address a:link,
+.address:visited {
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.post-id {
+  font-size: 1.2rem;
+}
+address {
+  font-size: 1.2rem;
+}
+.cta-form {
+  padding: 3.2rem;
+  margin-top: 6.4rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 3.2rem;
+  background-color: #ffd9b3;
+  border-radius: 1.1rem;
+}
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+    "fullname email"
+    "country country"
+    "message message"
+    "submit .";
+  gap: 3.2rem;
+}
+.form-heading {
+  font-size: 2.2rem;
+  margin-bottom: 3.2rem;
+}
+label {
+  display: block;
+  font-size: 1.6rem;
+  margin-bottom: 1.2rem;
+  text-transform: uppercase;
+  color: #000;
+}
+input {
+  font-size: 1.6rem;
+  border: none;
+  padding: 1.2rem;
+  width: 100%;
+}
+select {
+  font-size: 1.6rem;
+  padding: 1.6rem;
+  width: 100%;
+  border: none;
+}
+
+textarea {
+  border: none;
+  resize: none;
+  width: 100%;
+}
+
+.cta-image {
+  background-image: url(/assets/imgs/august-phlieger-CREqtqgBFcU-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.full-name {
+  grid-area: fullname;
+}
+.email {
+  grid-area: email;
+}
+.country {
+  grid-area: country;
+}
+
+.message {
+  grid-area: message;
+}
+
+.submit {
+  grid-area: submit;
 }
