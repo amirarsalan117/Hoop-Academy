@@ -66,6 +66,7 @@ html {
   .subheading {
     font-size: 1.6rem;
     color: #e67300;
+    font-weight: 500;
   }
   .btn:link,
   .btn:visited {
